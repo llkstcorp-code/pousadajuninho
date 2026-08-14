@@ -1,0 +1,8 @@
+# Configuração de ferramentas locais
+.claude/
+
+# Lixo de sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store

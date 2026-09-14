@@ -1,5 +1,5 @@
 ﻿/* =============================================================================
-   POUSADA DO JUNINHO — comportamento geral
+   POUSADA LEÃO AZUL — comportamento geral
    Depende de: assets/js/dados.js (window.POUSADA)
    ========================================================================== */
 (function () {
@@ -205,7 +205,7 @@
         '<div class="vazio">' + IC.balao +
         '<h3 class="t3">As avaliações dos hóspedes aparecem aqui</h3>' +
         '<p>Esta seção está pronta para receber as avaliações reais de quem já se hospedou. Nenhum depoimento fictício é exibido.</p>' +
-        '<a class="btn btn--contorno btn--p" data-zap="Olá! Me hospedei na Pousada do Juninho e gostaria de deixar uma avaliação." href="#">Deixar minha avaliação</a>' +
+        '<a class="btn btn--contorno btn--p" data-zap="Olá! Me hospedei na Pousada Leão Azul e gostaria de deixar uma avaliação." href="#">Deixar minha avaliação</a>' +
         '</div>';
       return;
     }
@@ -324,7 +324,7 @@
     const d = {
       '@context': 'https://schema.org',
       '@type': 'LodgingBusiness',
-      name: 'Pousada do Juninho',
+      name: 'Pousada Leão Azul',
       alternateName: D.nomeAnterior || undefined,
       description: 'Pousada em Capitólio, Minas Gerais. Hospedagem com café da manhã, Wi-Fi e localização estratégica para as cachoeiras, os cânions e o Lago de Furnas.',
       url: location.origin + location.pathname.replace(/[^/]*$/, ''),

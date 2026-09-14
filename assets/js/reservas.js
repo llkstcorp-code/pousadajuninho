@@ -1,5 +1,5 @@
 /* =============================================================================
-   POUSADA DO JUNINHO — fluxo de reserva (reservas.html)
+   POUSADA LEÃO AZUL — fluxo de reserva (reservas.html)
 
    A reserva é simples: datas + quantidade de pessoas + contato.
    Não há escolha de quarto — a pousada confirma a acomodação e o valor
@@ -171,7 +171,7 @@
 
     /* --- Mensagem ----------------------------------------------------------- */
     function mensagem(r) {
-      const l = ['*Solicitação de reserva — Pousada do Juninho*', ''];
+      const l = ['*Solicitação de reserva — Pousada Leão Azul*', ''];
       l.push('*Check-in:* ' + dataBR(r.checkin));
       l.push('*Check-out:* ' + dataBR(r.checkout));
       l.push('*Noites:* ' + r.noites);

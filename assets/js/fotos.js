@@ -1,5 +1,5 @@
 /* =============================================================================
-   POUSADA DO JUNINHO — fotos com troca livre de formato
+   POUSADA LEÃO AZUL — fotos com troca livre de formato
 
    Para trocar qualquer foto do site, basta salvar o arquivo em assets/img/
    com o nome certo. Não é preciso editar nenhuma página.

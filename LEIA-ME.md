@@ -1,4 +1,4 @@
-# Pousada do Juninho — site
+# Pousada Leão Azul — site
 
 Site estático (HTML + CSS + JavaScript, sem build e sem dependências).
 Envie a pasta inteira para qualquer hospedagem — Hostinger, Netlify, Vercel,
@@ -164,9 +164,14 @@ avaliacoes: [
 avaliações publicadas aqui. Troque pelos números reais do seu perfil do Google —
 são eles que vão para os dados estruturados e podem virar estrelas na busca.
 
-O campo `nomeAnterior` e o texto `avaliacoesObs` explicam a mudança de
-"Pousada Leão Azul" para "Pousada do Juninho". Apague os dois quando não fizer
-mais sentido manter a ponte entre os nomes.
+O campo `nomeAnterior` guarda "Pousada do Juninho", nome sob o qual o site
+esteve no ar por um período. Ele só alimenta os dados estruturados (SEO), para
+que quem procurar por esse nome ainda encontre a pousada. Apague quando não
+fizer mais sentido manter a ponte entre os nomes.
+
+O texto `avaliacoesObs` está `null`: ele existia para explicar por que as
+avaliações do Google citavam um nome diferente do site. Como os dois voltaram a
+ser "Pousada Leão Azul", não há mais divergência a explicar.
 
 ---
 
@@ -222,7 +227,8 @@ Já configurado:
 **Depois de publicar:** cadastre o site no
 [Google Search Console](https://search.google.com/search-console) e vincule o
 **Perfil da Empresa no Google**. Para busca local, esse perfil pesa mais que o
-site — e hoje ele ainda está com o nome "Pousada Leão Azul".
+site — e ele já está com o nome "Pousada Leão Azul", igual ao do site, o que
+ajuda o Google a tratar os dois como o mesmo estabelecimento.
 
 ---
 

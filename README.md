@@ -1,6 +1,6 @@
-# Pousada do Juninho
+# Pousada Leão Azul
 
-Site da Pousada do Juninho — Capitólio, Minas Gerais.
+Site da Pousada Leão Azul — Capitólio, Minas Gerais.
 
 Site estático em HTML, CSS e JavaScript, sem build e sem dependências.
 

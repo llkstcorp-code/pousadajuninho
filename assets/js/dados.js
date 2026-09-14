@@ -1,5 +1,5 @@
 ﻿/* =============================================================================
-   POUSADA DO JUNINHO — ARQUIVO DE CONFIGURAÇÃO
+   POUSADA LEÃO AZUL — ARQUIVO DE CONFIGURAÇÃO
    -----------------------------------------------------------------------------
    Este é o ÚNICO arquivo que precisa ser editado para atualizar o conteúdo
    do site: contato, endereço, regras, perguntas frequentes e avaliações.
@@ -126,12 +126,15 @@ const POUSADA = {
   /* Nome anterior da pousada. Usado nos dados estruturados (SEO) para que
      quem procurar pelo nome antigo no Google encontre o site.
      Deixe null se não quiser mais associar os dois nomes. */
-  nomeAnterior: 'Pousada Leão Azul',
+  nomeAnterior: 'Pousada do Juninho',
 
   /* Observação exibida abaixo das avaliações.
      Serve para explicar o nome anterior da pousada, que aparece em avaliações
-     antigas. Deixe null para não exibir nada. */
-  avaliacoesObs: 'Algumas avaliações mencionam “Pousada Leão Azul”, nome anterior da pousada. Trata-se do mesmo estabelecimento, sob a mesma administração.',
+     antigas. Deixe null para não exibir nada.
+
+     Está null porque as avaliações do Google já citam “Pousada Leão Azul”,
+     que agora é o nome atual — não há divergência para explicar. */
+  avaliacoesObs: null,
 
   /* Nota média e total de avaliações (null = não exibir).
 
@@ -172,7 +175,7 @@ const POUSADA = {
      ------------------------------------------------------------------------ */
   textos: {
     // Mensagem inicial pré-preenchida ao abrir o WhatsApp
-    whatsappMensagem: 'Olá! Vim pelo site da Pousada do Juninho e gostaria de informações sobre hospedagem.',
+    whatsappMensagem: 'Olá! Vim pelo site da Pousada Leão Azul e gostaria de informações sobre hospedagem.',
     // Frase usada quando um dado ainda não foi informado
     semInformacao: 'Fale com a gente pelo WhatsApp para confirmar essa informação.',
   },
